@@ -1,7 +1,18 @@
 What happens when you initialize a repository? Why do you need to do it?
+	
 	When we initialize a repository, a new hidden file name .git gets created inside the project directory.
 	We need to do this to allow git setup the repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+	
 	Staging area is intermediate between working directory and repository. This area contains only files we want to commit changes to and does not contain all files from the working directory. It is also independent of already commited files contained inside the repository.
 	It give more control to the user when to commit their changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	we can review files to be commited using git commands. git diff can be used to find the difference between working directory and the staging area. git diff --staged can be used to make sure the  changes between staging area and current repository commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When we need to fix a bug on the working version of the project while on a experimental version, branches are useful.
+	With branches we can switch from experimental version to the working version to fix the bug and the switch back to the experiental version again. When we complete our new experimental feature without any issues we can merge it with the original.

@@ -16,3 +16,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 	When we need to fix a bug on the working version of the project while on a experimental version, branches are useful.
 	With branches we can switch from experimental version to the working version to fix the bug and the switch back to the experiental version again. When we complete our new experimental feature without any issues we can merge it with the original.
+
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams makes it easy to visualise the branch structure. We can clearly see each commits and their branching in a diagram.

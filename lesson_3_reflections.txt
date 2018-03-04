@@ -12,7 +12,7 @@ Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
     Forking is the cloning of repository from someone else's github to ours.
-    Fork is useful when we want to create our own version of some others work but we do not have the permission to push to the original.
+    Fork is useful when we want to create our own version of some else's work but we do not have the permission to push to the original.
     Cloning is just making another copy of git repository either from github or locally.
     It is useful when anyone who has the permission want to work offline on the github project.
     Branches are made inside a repository to fulfill different purposes.
@@ -21,14 +21,18 @@ use one instead of another?
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-    Having a copy of last known state of the remote stored locally helps us determine the state of the remote while we work on our copy. We can try merging the remote changes with ours offline. Last known state also gives us the reference to the point when we last syncronised.
+
+    Having a copy of last known state of the remote stored locally helps us determine the state of the remote while we work on our copy. We can try merging the remote changes with ours offline. Last known state also gives us the reference to the point when we last syncronized with the remote.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would host my working directory onto some server and share the link to all collaborators. I would keep update it whenever I want to commit any changes.
+    Resolving merge conflicts would be very difficult. I would have to discuss every changes with every other member.
+    It would be easier to get frustrated over collaborating with others without Git or GitHub.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When I am working on some new feature, I would create a seperate branch for it. Being on seperate branch, I can focus on my part without worring about others work. When I am done, I can pull request and ask for other collaboraters to review before merging my branch to master.
+    Working on the master branch is good for bug fixes.
